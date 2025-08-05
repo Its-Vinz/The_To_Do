@@ -1,10 +1,10 @@
-# The_To-Do aka TodoList
+# The_To-Do aka ListLinks
 
 Simple todo to add your daily task, stores todo in localstorage
 
 Personal Practise Project `BY VINZ`
 
-[Click to see demo](https://grandgradient.netlify.app/)
+[Click to see demo](https://listlinks.netlify.app/)
 
 Desktop Snapshot:
 
