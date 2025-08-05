@@ -10,7 +10,7 @@ html{
 
 h2{
     margin: 3rem 0;
-    font-size: 1.6rem;
+    font-size: 3rem;
     font-weight: 800;
     text-align: center;
 }
@@ -95,9 +95,10 @@ footer{
 }
 
 footer p{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     margin-bottom: 10px;
     text-align: center;
+    font-weight: 500;
 }
 
 p a{
