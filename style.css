@@ -1,0 +1,90 @@
+html{
+    font-family: "Inter",sans-serif;
+    background-Image: linear-gradient(to right, #430ee3, #5a0d4a);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+h2{
+    margin: 3rem 0;
+    font-size: 1.6rem;
+    font-weight: 800;
+    text-align: center;
+}
+.inpButContainer{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+#inputValue{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+#inputValue::placeholder {
+    font-size: 0.8rem;
+    color: rgba(233, 233, 233, 0.733);
+}
+
+.btn, .deleteToDo{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 18px;
+    padding: 8px;
+    margin: 8px;
+    width: 15vh;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+    transition: all 0.2s linear;
+
+    &:hover{
+        box-shadow: inset 0 0 0 0.2rem #f5ee62;
+    }
+}
+
+li{
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: 600;
+    list-style: none;
+    &:hover{
+        color: #f5ee62;
+    }
+}
+
+.todo-list-elem{
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.note{
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 15px;
+    padding: 12px;
+    margin: 2rem;
+    border: 1px solid white;
+}
+
+p{  
+    margin: 0.8rem 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+span{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
